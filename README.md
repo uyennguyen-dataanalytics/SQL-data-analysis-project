@@ -1,7 +1,9 @@
 # SQL-data-analysis-project
+Credit: Data with Baara
+
 Develop SQL-based analytics to deliver detailed business insights
 
-## 1. Project overview
+## Project overview
 ### BI: Analytics & Reporting (Data Analysis)
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:
