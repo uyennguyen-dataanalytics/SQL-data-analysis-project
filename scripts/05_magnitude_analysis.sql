@@ -3,9 +3,10 @@
 Magnitude Analysis
 ===================================================================
 Purpose:
-
+  Quantify data and group results by specific dimensions
 SQL functions used:
-
+  Aggregation functions: SUM(), COUNT(), AVG()
+  GROUP BY, ORDER BY
 */
 
 -- Find total customers by countries
