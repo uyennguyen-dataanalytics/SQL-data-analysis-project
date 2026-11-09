@@ -1,7 +1,7 @@
 # SQL-data-analysis-project
-Credit: Data with Baara
 
-Develop SQL-based analytics to deliver detailed business insights
+Credit: Data with Baraa
+
 
 ## Project overview
 ### BI: Analytics & Reporting (Data Analysis)
