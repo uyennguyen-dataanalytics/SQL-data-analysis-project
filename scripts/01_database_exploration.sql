@@ -21,7 +21,7 @@ SELECT
     TABLE_TYPE
 FROM INFORMATION_SCHEMA.TABLES
 
--- Explore all columns in one specific table (ex: dim_products)
+-- Explore all columns in one specific table (e.g. dim_products)
 SELECT * FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'dim_products'
 -- or
