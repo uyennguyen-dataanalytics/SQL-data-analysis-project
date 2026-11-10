@@ -1,4 +1,4 @@
-# SQL-data-analysis-project
+# DATA ANALYSIS WITH SQL
 
 Credit: Data with Baraa
 
