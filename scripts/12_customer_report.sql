@@ -96,7 +96,7 @@ SELECT
   lifespan,
   CASE WHEN total_orders = 0 THEN 0
        ELSE total_sales/total_orders 
-  END AS avg_order_value,                                                       -- KPI: average over value
+  END AS avg_order_value,                                                       -- KPI: average order value
   CASE WHEN lifespan = 0 THEN total_sales
        ELSE total_sales/lifespan
   END avg_monthly_spend                                                         -- KPI: average monthly spend
