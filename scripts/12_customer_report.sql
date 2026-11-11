@@ -32,7 +32,7 @@ CREATE VIEW gold.report_customers AS
 /*---------------------------------------------------------------------------
 Base query: Retrieves core columns from tables
 ---------------------------------------------------------------------------*/
-WITH base_query AS(
+WITH base_query AS (
   SELECT
     s.order_number,
     s.product_key,
@@ -46,12 +46,13 @@ WITH base_query AS(
   FROM gold.fact_sales s
   LEFT JOIN gold.dim_customers c
   ON s.customer_key = c.customer_key
-  WHERE order_date IS NOT NULL),
+  WHERE order_date IS NOT NULL
+),
 
 /*---------------------------------------------------------------------------
 Customer aggregation: Summarize key metrics at customer level
 ---------------------------------------------------------------------------*/
-customer_aggregation AS(
+customer_aggregation AS (
   SELECT
     customer_key,
     customer_number,
@@ -68,7 +69,8 @@ customer_aggregation AS(
   customer_key,
   customer_number,
   customer_name,
-  customer_age)
+  customer_age
+)
 
 SELECT
   customer_key,
